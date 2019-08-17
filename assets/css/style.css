@@ -42,6 +42,10 @@ h2, h3 {
     font-size: 22px;
 }
 
+h2 {
+    text-align: center;
+}
+
 /*header*/
 
 #masthead {
@@ -69,6 +73,10 @@ h2, h3 {
     text-decoration: none;
 }
 
+#logo:hover {
+    background: #4CA8C2;
+}
+
 nav {
     float: right;
     margin-top: 25px;
@@ -86,6 +94,10 @@ nav a {
 
 nav a:first-child {
     border-left: 0 none;
+}
+
+nav a:hover {
+    color: #4CA8C2;
 }
 
 /*main*/
@@ -130,14 +142,21 @@ h3, .sidebar, h2 {
 }
 
 .social {
-    width: 62px;
-    height: 62px;
+    width: 60px;
+    height: 60px;
     margin-top: 8px;
     margin-right: 5px;
+    transition: width 0.25s ease;
+    transition: height 0.25s ease;
 }
 
 .social:last-child {
     margin-right: 0;  
+}
+
+.social:hover {
+    width: 64px;
+    height: 64px;
 }
 
 
